@@ -8,7 +8,7 @@ import java.util.*;
 public class MyGUI extends JFrame {
 	
 	public MyGUI() {
-		super("The Skywalker Family");
+		super("My GUI");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JButton theButton = new JButton("Click me!");
@@ -24,6 +24,6 @@ public class MyGUI extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-    new MyGUI(); //create the frame
-  }
+		new MyGUI(); //create the frame
+	}
 }
